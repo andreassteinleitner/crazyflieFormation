@@ -110,6 +110,6 @@ if __name__ == '__main__':
     # Initialize the low-level drivers (don't list the debug drivers)
     cflib.crtp.init_drivers(enable_debug_driver=False)
     # Connect the two Crazyflies and ramps them up-down
-    le0 = MotorRampExample('radio://0/20/2M')
+    le0 = MotorRampExample('radio://0/80/2M')
     while(le0.connected):
         time.sleep(0.1)
