@@ -24,7 +24,7 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA  02110-1301, USA.
 """
-A script to fly 5 Crazyflies in formation. One stays in the center and the
+A script to fly Crazyflies at 'URI's in formation. One stays in the center and the
 other four fly aound it in a circle. Mainly intended to be used with the
 Flow deck.
 The starting positions are vital and should be oriented like this
@@ -47,10 +47,10 @@ from cflib.crazyflie.swarm import Swarm
 
 # Change uris according to your setup
 URI0 = 'radio://0/20/2M'
-URI1 = 'radio://0/40/2M'
+URI1 = 'radio://1/40/2M'
 URI2 = 'radio://0/60/2M'
 URI3 = 'radio://0/80/2M'
-URI4 = 'radio://0/100/2M'
+URI4 = 'radio://1/100/2M'
 
 # d: diameter of circle
 # z: altituce

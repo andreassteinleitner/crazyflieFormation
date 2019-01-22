@@ -24,7 +24,7 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA  02110-1301, USA.
 """
-Version of the AutonomousSequence.py example connecting to 10 Crazyflies.
+Version of the AutonomousSequence.py example connecting to Crazyflies at 'URI's.
 The Crazyflies go straight up, hover a while and land but the code is fairly
 generic and each Crazyflie has its own sequence of setpoints that it files
 to.
@@ -57,10 +57,10 @@ from cflib.crazyflie.syncLogger import SyncLogger
 
 # Change uris and sequences according to your setup
 URI1 = 'radio://0/20/2M'
-URI2 = 'radio://0/40/2M'
+URI2 = 'radio://1/40/2M'
 URI3 = 'radio://0/60/2M'
 URI4 = 'radio://0/80/2M'
-URI5 = 'radio://0/100/2M'
+URI5 = 'radio://1/100/2M'
 URI6 = 'radio://0/70/2M/E7E7E7E706'
 URI7 = 'radio://0/70/2M/E7E7E7E707'
 URI8 = 'radio://0/70/2M/E7E7E7E708'
