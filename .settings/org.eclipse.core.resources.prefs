@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//scripts/autonomousSequence.py=utf-8
+encoding//scripts/autonomous_sequence_high_level.py=utf-8
+encoding//scripts/flowsequenceSync.py=utf-8
+encoding//scripts/motion_commander_demo.py=utf-8
+encoding//scripts/multiramp.py=utf-8
+encoding//scripts/position_commander_demo.py=utf-8
+encoding//scripts/ramp.py=utf-8
+encoding//scripts/scan.py=utf-8
+encoding//scripts/swarmSequence.py=utf-8
+encoding//scripts/swarmSequenceCircle.py=utf-8
