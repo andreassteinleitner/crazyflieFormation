@@ -80,64 +80,66 @@ y1 = -0.4
 y2 = 0.4
 y3 = 1.0
 
+hoverTime = 10.0
+
 #    x   y   z  time
 sequence1 = [
     (x0, y0, z0, 3.0),
-    (x0, y0, z, 30.0),
+    (x0, y0, z, hoverTime),
     (x0, y0, z0, 3.0),
 ]
 
 sequence2 = [
     (x0, y1, z0, 3.0),
-    (x0, y1, z, 30.0),
+    (x0, y1, z, hoverTime),
     (x0, y1, z0, 3.0),
 ]
 
 sequence3 = [
     (x0, y2, z0, 3.0),
-    (x0, y2, z, 30.0),
+    (x0, y2, z, hoverTime),
     (x0, y2, z0, 3.0),
 ]
 
 sequence4 = [
     (x0, y3, z0, 3.0),
-    (x0, y3, z, 30.0),
+    (x0, y3, z, hoverTime),
     (x0, y3, z0, 3.0),
 ]
 
 sequence5 = [
     (x1, y1, z0, 3.0),
-    (x1, y1, z, 30.0),
+    (x1, y1, z, hoverTime),
     (x1, y1, z0, 3.0),
 ]
 
 sequence6 = [
     (x1, y2, z0, 3.0),
-    (x1, y2, z, 30.0),
+    (x1, y2, z, hoverTime),
     (x1, y2, z0, 3.0),
 ]
 
 sequence7 = [
     (x2, y0, z0, 3.0),
-    (x2, y0, z, 30.0),
+    (x2, y0, z, hoverTime),
     (x2, y0, z0, 3.0),
 ]
 
 sequence8 = [
     (x2, y1, z0, 3.0),
-    (x2, y1, z, 30.0),
+    (x2, y1, z, hoverTime),
     (x2, y1, z0, 3.0),
 ]
 
 sequence9 = [
     (x2, y2, z0, 3.0),
-    (x2, y2, z, 30.0),
+    (x2, y2, z, hoverTime),
     (x2, y2, z0, 3.0),
 ]
 
 sequence10 = [
     (x2, y3, z0, 3.0),
-    (x2, y3, z, 30.0),
+    (x2, y3, z, hoverTime),
     (x2, y3, z0, 3.0),
 ]
 
