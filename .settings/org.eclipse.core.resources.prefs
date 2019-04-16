@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
+encoding//newScripts/flowSequenceFormationController.py=utf-8
+encoding//newScripts/formationCommander.py=utf-8
 encoding//scripts/autonomousSequence.py=utf-8
 encoding//scripts/autonomous_sequence_high_level.py=utf-8
 encoding//scripts/flowsequenceSync.py=utf-8
