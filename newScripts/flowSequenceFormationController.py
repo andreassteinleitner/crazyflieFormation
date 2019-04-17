@@ -56,28 +56,12 @@ if __name__ == '__main__':
         time.sleep(2)
         # send_hover_setpoint (vx,vy,yawrate,zDistance)
         # send_formation_setpoint (roll,pitch,yawrate,thrust)
-        for _ in range(10):
+        for y in range(20):
             cf.formationCommander.send_formation_setpoint(0, 0, 0, int(y / 25 * 1000))
             time.sleep(0.1)
-
-        for roll in range(10):
-            cf.commander.send_hover_setpoint(roll, 0, 0, 0.4)
-            time.sleep(0.1)
-
+            
         for _ in range(50):
-            cf.commander.send_hover_setpoint(0.5, 0, 36 * 2, 0.4)
-            time.sleep(0.1)
-
-        for _ in range(50):
-            cf.commander.send_hover_setpoint(0.5, 0, -36 * 2, 0.4)
-            time.sleep(0.1)
-
-        for _ in range(20):
-            cf.commander.send_hover_setpoint(0, 0, 0, 0.4)
-            time.sleep(0.1)
-
-        for y in range(10):
-            cf.commander.send_hover_setpoint(0, 0, 0, (10 - y) / 25)
+            cf.formationCommander.send_formation_setpoint(0, 0, 72, 800)
             time.sleep(0.1)
 
         cf.commander.send_stop_setpoint()
